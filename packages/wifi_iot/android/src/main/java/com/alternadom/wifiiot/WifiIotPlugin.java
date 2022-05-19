@@ -1393,7 +1393,7 @@ public class WifiIotPlugin
               }
             };
 
-        connectivityManager.requestNetwork(networkRequest, networkCallback, handler, 30 * 1000);
+        connectivityManager.requestNetwork(networkRequest, networkCallback, handler, 60 * 1000);
       }
     }
   }
